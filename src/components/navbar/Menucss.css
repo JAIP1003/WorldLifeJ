@@ -1,0 +1,57 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+.wrapper ul{
+    list-style: none;
+    position: relative;
+}
+
+
+.wrapper ul ul{
+    display: none;
+}
+.wrapper ul:hover ul{
+    display: block;
+   margin-top: 50px;
+   margin-left: 502px;
+    font-size: 15px;
+    position: absolute;
+    line-height: 50px;
+    padding: 10px;
+    padding-right: 100px;
+    background-color: whitesmoke;
+}
+
+.wrapper ul li a{
+    text-decoration: none;
+    color: rgb(61, 45, 45);
+}
+.wrapper ul li a:hover{
+    color: tomato;
+}
+
+.menu{
+    color: white;
+    padding: 20px;
+    float: left;
+    text-decoration: none;
+}
+.menu:hover{
+    height: 100%;
+    color: yellow;
+}
+
+
+
+.donation{
+    background-color: teal;
+    padding: 30px;
+    float: left;
+    margin-left: 55px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5%;
+}
+.donation:hover{
+    color: yellow;
+    background-color: rgb(106, 104, 112);
+}

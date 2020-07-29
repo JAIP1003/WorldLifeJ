@@ -1,0 +1,299 @@
+*{padding:0;margin:0;box-sizing:border-box;}
+
+.top{
+    height:120px;
+    background-color: rgb(44, 139, 44);
+    color: white;
+    padding-top: 20px;
+    padding-left: 25px;
+    position: sticky;
+    top: 0px;
+
+}
+.worldlife{
+    font-size: 35px;
+    padding: 10px;
+    font-weight: 200px;
+    padding-right: 100px;
+    float: left;
+    
+}
+.imageBar{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    animation: animate 16s ease-in-out infinite;
+    z-index: -1;
+}
+
+@keyframes animate{
+0%,100%{
+    background-image: url('https://i.ibb.co/V9Ck6qs/photo-1593642532842-98d0fd5ebc1a-ixlib-rb-1-2.jpg');
+}
+25%{
+    background-image: url("https://i.ibb.co/dQD4tyM/dark.jpg");
+}
+50%{
+    background-image: url('https://i.ibb.co/kGpCS1z/extracc.jpg');
+}
+75%{
+    background-image: url('https://i.ibb.co/d6dZnN5/sacred.jpg');
+}
+
+}
+
+.imageBar h1{
+    position: absolute;
+    margin-top: 300px;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 250px;
+}
+.imageBarTop a{
+
+    background-color: rgb(93, 199, 93);
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 45%;
+    top: 110px;
+    width: 200px;
+    height: 65px;
+    border-radius: 5%;
+    color: white;
+    font-size: 18px;
+    text-decoration: white;
+    padding-top: 20px;
+    text-align: center;
+    z-index: -1;
+}
+.imageBarTop a:hover{
+    background-color: teal;
+    color: yellow;
+}
+
+
+.imageBox{
+    width: 200px;
+    height: 200px;  
+    position: relative; 
+    margin: 20px;
+    float: left;
+}
+
+
+.imageWhiteRight{
+    float: left;
+}
+
+.imageBox img{
+    width: 200px;
+    height: 200px;
+    transition: transform 0.2s;
+}
+.imageBox:hover img{
+    width: 200px;
+    height: 200px;
+   transform: scale(1.2);
+
+}
+
+
+.transpa{
+    position: absolute;
+    top: 0px;
+    background-color: blue;
+}
+
+.logoBox{
+    position: absolute;
+    color: white;
+    padding: 10px;
+    margin-left:55px;
+    margin-top:115px;
+    text-align: center;
+
+}
+
+.text{
+    position: absolute;
+    color: white;
+    margin-left: 65px;
+    margin-top: 165px;
+    text-align: center;
+}
+.imageWhite{
+    position: relative;
+    float: left;
+}
+
+.imageWhite img{
+    
+    width: 50%;
+    height: 800px;
+}
+
+.imageWhiteText{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    right: 800px;
+}
+
+.imageWhiteText h4{
+    padding-bottom: 30px;
+    color: brown;
+}
+
+.imageWhiteText h1{
+    padding-bottom: 20px;
+    line-height: 50px;
+    font-size: 35px;
+}
+
+.imageWhiteText p{
+    line-height: 30px;
+}
+
+.imageWhiteText a{
+    background-color: rgb(93, 199, 93);
+    position: absolute;
+    margin-top: 450px;
+    top: 70px;
+    width: 200px;
+    height: 65px;
+    border-radius: 5%;
+    color: white;
+    font-size: 18px;
+    text-decoration: white;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.imageWhiteText a:hover{
+    background-color: teal;
+    color: yellow;
+}
+
+
+.ImageBoxRight1{
+    margin-left: 55%;
+    position: absolute;
+    margin-top:120px ;
+}
+
+.imageBox2{
+    position: absolute;
+    margin-top: 800px;
+} 
+
+.imageBox2 img{
+    width: 61%;
+    height: 800px;
+}
+
+
+.subscribe{
+    position: absolute;
+    margin-top: 800px;
+    width: 50%;
+    height: 800px;
+    background-color: black;
+    margin-left: 49.8%;
+}
+
+.subscribe h4{
+    margin-top: 150px;
+   margin-left: 100px;
+   margin-bottom: 30px;
+   font-size: 10px;
+    color: teal;
+}
+
+.subscribe h1{
+    margin-left: 100px;
+    margin-right: 150px;
+    color: rgb(214, 182, 182);
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.subscribe p{
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 35px;
+    line-height: 30px;
+    color: rgb(224, 191, 191);
+}
+
+
+
+.Form{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 130px;
+    border-top-left-radius: 7%;
+    border-bottom-left-radius: 7%;
+}
+
+.SubsInput{
+    padding-top: 16px;
+    padding-right: 150px;
+    padding-bottom: 16px;
+    letter-spacing: 2px;
+    border: none;
+    border-right-color: rgb(93, 199, 93);
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+    
+}
+
+.subscribe a{
+    text-decoration: none;
+}
+
+
+.Subslabel1{
+    background-color: rgb(93, 199, 93);
+    color: white;
+    padding: 17px;
+    border-top-right-radius: 10%;
+     border-bottom-right-radius: 10%; 
+     font-size: 13px;
+     text-align: center;
+}
+
+.Subslabel1:hover{
+    background-color: teal;
+}
+
+.callCenter{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgb(221, 177, 177);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    line-height: 25px;
+    font-weight: normal;
+}
+.callNum{
+    color: rgb(85, 110, 34);
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.asking{
+    color: rgb(85, 110, 34);
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.below{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    margin-top: 200px;
+}
