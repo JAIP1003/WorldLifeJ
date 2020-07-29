@@ -19,7 +19,7 @@ import sData1 from './Sdata';
 function Navbar(){
     return(
       
-        <div className="top">
+        <div className='top'>
             <span className="worldlife">🤔 Worldlife</span>
             <Menu/>
             <Switch>
